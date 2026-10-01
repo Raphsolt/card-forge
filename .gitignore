@@ -1,0 +1,21 @@
+# Python Virtual Environments
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local Model Weights (Do not commit large models to Git)
+Qwen2.5-7B-Instruct-4bit/
+*.safetensors
+*.bin
+*.ckpt
+
+# Output images & Temporary Plates
+output/*.png
+!output/.gitkeep
+*.png
+
+# macOS system files
+.DS_Store
+Thumbs.db
